@@ -1,0 +1,24 @@
+/* Padding */
+ .padding{
+    padding: 20px; /* Adds space inside the element */
+    border: 5px solid blue;
+
+  }
+  .padd{
+    background: antiquewhite;
+    padding-top:50px;
+    padding-right: 35px;
+    width: 600px;
+    height: 200px;
+    overflow: auto;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Margin */
+  .margin{
+    margin-left: 90px; /* Adds space outside the element */
+    border:1px solid rgb(223, 42, 42);
+    padding-left: 25px;
+
+  }

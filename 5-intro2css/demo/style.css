@@ -1,0 +1,21 @@
+/* this is a CSS style */
+body{
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    color: orange;
+    text-align: center;
+    background-color: blue;
+}
+
+p {
+    font-size: 20px;
+    color: brown;
+    background-color: bisque;
+}
+footer{
+    text-align: center;
+    border: 12px dashed rgb(215, 45, 45);
+}
+

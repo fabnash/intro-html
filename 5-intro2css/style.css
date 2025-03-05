@@ -1,0 +1,33 @@
+/* This is external css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bc4c4c;
+    margin: 0px;
+    padding: 0;
+    }
+    header {
+    background-color: #403c31;
+    color: rgb(249, 243, 243);
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    } 
+    h1 {
+    font-size: 36px;
+    }
+    
+    footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    }
+    select{
+        margin: 20px;
+        padding: 20px;
+        background-color: rgb(41, 195, 41);
+        border: 1px solid #ddd;
+        } 

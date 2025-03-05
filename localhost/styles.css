@@ -1,0 +1,30 @@
+html{
+    background-color: rgb(55, 56, 56);
+}
+body{
+    
+        font-family:"Kavivanar", serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: xx-large;
+        color: aliceblue; 
+        margin: auto;  
+}
+.head{
+    background-color: black;
+    border: 1px solid grey;
+}
+.call{
+    border: 1px solid yellowgreen;
+    background-color: rgb(96, 105, 74);
+    width: 400px;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 23px;
+}
+.foot{
+    text-align: center;
+    font-size: small;
+    margin-top: 450px;
+
+}

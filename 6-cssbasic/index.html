@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<style>
+  .grid{
+display: grid;
+margin: 5rem;
+width: min(90%, 75rem);
+grid-auto-flow:row;
+gap: 1em;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100);
+body{
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  background: #EEF1F3;
+  line-height: 1;}
+  h1{
+    font-weight: 100;
+    font-size: 7em;
+    color:blueviolet;
+  }
+.city {
+  background-color: purple;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.city1 {
+  background-color: indigo;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+#city2 {
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+#city3 {
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+@media(min-width:45em)
+.grid{
+  grid-auto-flow:column;
+}
+
+</style>
+</head>
+<body>
+  <h1>Parallax</h1>
+<div class="grid">
+<div class="city">
+<h2>Japan</h2>
+<p>London is the capital of Tokyo.</p>
+</div> 
+
+<div class="city1">
+<h2>London</h2>
+<p>London is the capital of England.</p>
+</div> 
+
+<div id="city2">
+<h2>Paris</h2>
+<p>Paris is the capital of France.</p>
+</div>
+
+<div id="city3">
+<h2>Cambodia</h2>
+<p>Tokyo is the capital of Phnom Phen.</p>
+</div>
+</div>
+
+</body>
+</html>
+

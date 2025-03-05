@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(223, 223, 188);
+    font-family: "Kavivanar", serif;
+    font-weight: 400;
+    font-style: normal; ;
+    }
+
+      
+h1{
+    color: red;
+}
+h3{
+    color: blueviolet;
+}
+h6{
+    color: brown;
+}

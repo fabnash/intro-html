@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+    font-family: 'Kavivanar&family=Roboto',  monospace;
+  
+}
+table, th, td {
+    border:1px solid rgb(13, 6, 216);
+    border-collapse: collapse;
+    background-color:rgb(189, 184, 184) ;
+    color: rgb(12, 12, 122); 
+    padding: 10px;
+    margin: 10px;
+    
+    
+    
+    
+}
+ul{
+    list-style-position: inside; 
+    text-align: center;
+    list-style-type:square;
+    
+}
+ol{
+    list-style-position: inside; 
+    text-align: center;
+    
+}
+
+
+    
